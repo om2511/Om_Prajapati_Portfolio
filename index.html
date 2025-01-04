@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my portfolio website. Where you can find my projects, services and about me. Feel free to contact!">
+
+    <!--=============== REMIXICONS ===============-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--=============== ScrollReveal ===============-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Om Prajapati</title>
+</head>
+<body>
+    <!--=============== NAVBAR ===============-->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li>
+                <a href="#home" class="nav__link active-link">
+                    <i class="ri-home-smile-2-line"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#about" class="nav__link">
+                    <i class="ri-user-line"></i>
+                </a>
+            </li>
+
+            <!-- Expand list -->
+            <li>
+                <button class="nav__expand" id="nav-expand">
+                    <i class="ri-add-line nav__expand-icon" id="nav-expand-icon"></i>
+                </button>
+
+                <ul class="nav__expand-list" id="nav-expand-list">
+                    <li>
+                        <a href="#services" class="nav__expand-link">
+                            <i class="ri-service-line"></i>
+                            <span>Services</span>
+                        </a>
+                    </li>
+      
+                    <li>
+                        <a href="#resume" class="nav__expand-link">
+                            <i class="ri-article-line"></i>
+                            <span>Resume</span>
+                        </a>
+                    </li>
+      
+                    <li>
+                        <a href="#links" class="nav__expand-link">
+                            <i class="ri-links-fill"></i>
+                            <span>Links</span>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+         
+            <li>
+                <a href="#projects" class="nav__link">
+                    <i class="ri-briefcase-line"></i>
+                </a>
+            </li>
+
+            <li>
+                <a href="#contact" class="nav__link">
+                    <!-- <i class="ri-send-plane-line"></i> -->
+                    <i class="ri-message-3-line"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--==================== MAIN ====================-->
+    <main class="container">
+        <!--=============== Home Section ===============-->
+        <section class="section" id="home">
+            <div class="title-container hm-ttl-cnt">
+                <h1>HOME</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="home-container">
+                <div class="home-txt-container">
+                    <p class="home-txt">Hi,</p>
+                    <p class="home-txt">I am</p>
+
+                    <div class="typing-container">
+                        <p class="typed-txt"></p>
+                        <span class="cursor"></span>
+                    </div>
+                </div>
+
+                <div class="home-img">
+                    <img src="my-img-1.png" alt="image" class="my-img">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== About Section ===============-->
+        <section class="section" id="about">
+            <div class="title-container">
+                <h1>ABOUT</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="about-container">
+                <div class="about-img-container">
+                    <img src="my-img-2.JPG" alt="image" class="about-img">
+                    <div class="about-img-shadow"></div>
+                    <div class="about-img-geometric-box"></div>
+                    <div class="about-img-box"></div>
+                </div>
+
+                <div class="about-info-container">
+                        <p class="about-desc-para">
+                            Hi, I'm <b>Om Prajapati</b>, a passionate <b>Front-End Web Developer</b> eager to bring creative ideas to life on the web. With a strong foundation in HTML, CSS, and JavaScript, I specialize in designing and building user-friendly, responsive, and visually appealing websites.
+                        </p>
+
+                        <ul class="about-list">
+                            <li class="about-list-item">
+                                <b>My Skills Are:</b> HTML, CSS, JavaScript,
+                                PHP, Bootstrap, Git & GitHub.
+                            </li>
+                        </ul>
+
+                        <a href="#contact" class="about-contact-btn">
+                            <i class="ri-send-plane-fill"></i> Contact Me
+                        </a>
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Projects Section ===============-->
+        <section class="section" id="projects">
+            <div class="title-container">
+                <h1>PROJECTS</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="projects-container">
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project1.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">Website</h3>
+                            <h2 class="projects-title">Furniture Website</h2>
+    
+                            <p class="projects-description">
+                                A modern e-commerce platform for furniture shopping, featuring product catalogs, a sleek UI, and responsive design.
+                            </p>
+                        </div>
+                        
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/Furniture-Website" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/Furniture-Website/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project2.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">Website</h3>
+                            <h2 class="projects-title">Portfolio Website</h2>
+    
+                            <p class="projects-description">
+                                A personalized portfolio showcasing projects, skills, and achievements with an elegant and user-friendly interface.
+                            </p>
+                        </div>
+
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/Portfolio-Website" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/Portfolio-Website/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project3.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">App</h3>
+                            <h2 class="projects-title">Quiz App</h2>
+    
+                            <p class="projects-description">
+                                An interactive quiz application with customizable questions, real-time scoring, and a seamless user experience.
+                            </p>
+                        </div>
+
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/Quiz-App" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/Quiz-App/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project4.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">Website</h3>
+                            <h2 class="projects-title">Landing Page</h2>
+    
+                            <p class="projects-description">
+                                A visually captivating and responsive landing page designed to drive user engagement and conversions.
+                            </p>
+                        </div>
+
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/Landing-Page" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/Landing-Page/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project5.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">Website</h3>
+                            <h2 class="projects-title">Netflix Clone</h2>
+    
+                            <p class="projects-description">
+                                A fully functional Netflix-inspired streaming app featuring a dynamic UI, video thumbnails, and browsing by categories.
+                            </p>
+                        </div>
+
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/Netflix-Clone" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/Netflix_Clone/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="projects-card">
+                    <div class="projects-image">
+                        <img src="project6.png" alt="Projects Image" class="projects-img">
+
+                        <a href="#" class="projects-button button">
+                            <i class="ri-arrow-right-up-line"></i>
+                        </a>
+                    </div>
+
+                    <div class="projects-content">
+                        <div class="projects-content-txt">
+                            <h3 class="projects-subtitle">Website</h3>
+                            <h2 class="projects-title">Portfolio Website</h2>
+    
+                            <p class="projects-description">
+                                Another creative portfolio highlighting design skills, innovative layouts, and attention to detail.
+                            </p>
+                        </div>
+
+                        <div class="projects-buttons">
+                            <a href="https://github.com/om2511/PortFolio_Website" target="_blank" class="projects-link">
+                                <i class="ri-github-fill"></i> View
+                            </a>
+    
+                            <a href="https://om2511.github.io/PortFolio_Website/" target="_blank" class="projects-link">
+                                <i class="ri-global-line"></i> View
+                            </a>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--=============== Services Section ===============-->
+        <section class="section" id="services">
+            <div class="title-container">
+                <h1>SERVICES</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="services-container">
+                <article class="services-card">
+                    <div class="services-border"></div>
+
+                    <div class="services-content">
+                        <div class="services-icon">
+                            <div class="services-box web-box"></div>
+                            <i class="ri-global-fill"></i>
+                            <h2 class="services-title">Design</h2>
+                        </div>
+
+                        <p class="services-description">
+                            Crafting visually stunning and user-friendly designs tailored to your brand. I focus on creating intuitive layouts, color schemes, and typography that enhance user engagement and deliver a seamless browsing experience across all devices.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services-card">
+                    <div class="services-border"></div>
+
+                    <div class="services-content">
+                        <div class="services-icon">
+                            <div class="services-box dev-box"></div>
+                            <i class="ri-code-s-slash-line"></i>
+                            <h2 class="services-title">Developement</h2>
+                        </div>
+
+                        <p class="services-description">
+                            Bringing your ideas to life with clean, efficient, and scalable code. I specialize in building responsive websites, integrating modern technologies, and ensuring compatibility across all browsers.
+                        </p>
+                    </div>
+                </article>
+
+                <article class="services-card">
+                    <div class="services-border"></div>
+
+                    <div class="services-content">
+                        <div class="services-icon">
+                            <div class="services-box mnt-box"></div>
+                            <i class="ri-tools-fill"></i>
+                            <h2 class="services-title">Maintenance</h2>
+                        </div>
+
+                        <p class="services-description">
+                            Ensuring your website stays updated, secure, and running smoothly. My maintenance services include regular backups, performance optimizations, security monitoring, and content updates.
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!--=============== Resume Section ===============-->
+        <section class="section" id="resume">
+            <div class="title-container">
+                <h1>RESUME</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="resume-container">
+                <div class="resume-txt-content">
+                    <p class="resume-para">"Explore my professional journey by downloading my resume or scanning the QR code below to access it directly on your device."</p>
+
+                    <button class="resume-download-btn">
+                        <i class="ri-download-2-fill"></i>
+                        <span class="resume-download-txt">Download My Resume</span>
+                    </button>
+                </div>
+
+                <div class="resume-qrcode-content">
+                    <img src="qrcode.png" alt="image" class="resume-qrcode-img">
+                </div>
+            </div>
+        </section>
+
+        <!--=============== Contact Section ===============-->
+        <section class="section" id="contact">
+            <div class="title-container">
+                <h1>CONTACT</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <!-- Contact Section -->
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Let's Talk</h3>
+                    
+                    <div class="contact-data">
+                        <div class="contact-data-item">
+                            <i class="ri-mail-line"></i>
+                            <div>
+                                <h4 class="contact-data-title">Email</h4>
+                                <span class="contact-data-desc">ompra2511@gmail.com</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-data-item">
+                            <i class="ri-phone-line"></i>
+                            <div>
+                                <h4 class="contact-data-title">Phone</h4>
+                                <span class="contact-data-desc">+91 95741 74660</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-data-item">
+                            <i class="ri-map-pin-line"></i>
+                            <div>
+                                <h4 class="contact-data-title">Location</h4>
+                                <span class="contact-data-desc">Gujarat, India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h3 class="contact-subtitle">Connect With Me</h3>
+                        
+                        <div class="contact-social-links">
+                            <a href="https://github.com/om2511" target="_blank" class="contact-social-link">
+                                <i class="ri-github-fill"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/om-h-prajapati/" target="_blank" class="contact-social-link">
+                                <i class="ri-linkedin-box-fill"></i>
+                            </a>
+                            <a href="https://x.com/OmPrajapati25" target="_blank" class="contact-social-link">
+                                <i class="ri-twitter-fill"></i>
+                            </a>
+                            <a href="https://www.instagram.com/om.prajapati.25/" target="_blank" class="contact-social-link">
+                                <i class="ri-instagram-fill"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contact_form">
+                    <h3 class="contact-subtitle">Send Me a Message</h3>
+                    
+                    <div class="contact-form-group">
+                        <input type="text" placeholder="Your Name" name="user-name" class="contact-form-input" required>
+                        <input type="email" placeholder="Your Email" name="user-email" class="contact-form-input" required>
+                    </div>
+
+                    <input type="text" placeholder="Subject" name="user-subject" class="contact-form-input" required>
+                    <textarea placeholder="Your Message" name="user-message" class="contact-form-input contact-form-textarea" required></textarea>
+
+                    <button type="submit" class="contact-form-button">
+                        <i class="ri-send-plane-fill"></i> Send Message
+                    </button>
+
+                    <p class="contact-message" id="contact-msg"></p>
+                </form>
+            </div>
+        </section>
+
+        <!--=============== Links Section ===============-->
+        <section class="section" id="links">
+            <div class="title-container">
+                <h1>LINKS</h1>
+                <img src="underline.webp" alt="image" class="underline">
+            </div>
+
+            <div class="links-container">
+                <!-- Navigation Links -->
+                <div class="links-group">
+                    <h3 class="links-title">Quick Links</h3>
+                    <div class="links-content">
+                        <a href="#home" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> Home
+                        </a>
+                        <a href="#about" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> About
+                        </a>
+                        <a href="#services" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> Services
+                        </a>
+                        <a href="#projects" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> Projects
+                        </a>
+                        <a href="#resume" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> Resume
+                        </a>
+                        <a href="#contact" class="links-item">
+                            <i class="ri-arrow-right-s-line"></i> Contact
+                        </a>
+                    </div>
+                </div>
+            
+                <!-- Social Media Links -->
+                <div class="links-group">
+                    <h3 class="links-title">Social Media</h3>
+                    <div class="links-content">
+                        <a href="https://github.com/om2511" target="_blank" class="links-item">
+                            <i class="ri-github-fill"></i> Github
+                        </a>
+                        <a href="https://www.linkedin.com/in/om-h-prajapati/" target="_blank" class="links-item">
+                            <i class="ri-linkedin-box-fill"></i> LinkedIn
+                        </a>
+                        <a href="https://x.com/OmPrajapati25" target="_blank" class="links-item">
+                            <i class="ri-twitter-fill"></i> Twitter
+                        </a>
+                        <a href="https://www.instagram.com/om.prajapati.25/" target="_blank" class="links-item">
+                            <i class="ri-instagram-fill"></i> Instagram
+                        </a>
+                    </div>
+                </div>
+            
+                <!-- YouTube Channels -->
+                <div class="links-group">
+                    <h3 class="links-title">YouTube Channels</h3>
+                    <div class="links-content">
+                        <a href="https://www.youtube.com/@CodeCraftedWeb" target="_blank" class="links-item">
+                            <i class="ri-youtube-fill"></i> Coding Channel
+                        </a>
+                        <!-- <a href="#" class="links-item">
+                            <i class="ri-youtube-fill"></i> Tech Reviews
+                        </a> -->
+                        <a href="https://www.youtube.com/@om.prajapati.25" target="_blank" class="links-item">
+                            <i class="ri-youtube-fill"></i> Tutorial Channel
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Footer -->
+            <!-- <footer class="footer">
+                <div class="footer-content">
+                    <p class="footer-copy">
+                        © 2024 Om Prajapati. All rights reserved
+                    </p>
+                    
+                    <div class="footer-social">
+                        <a href="#" class="footer-social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="#" class="footer-social-link">
+                            <i class="ri-twitter-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </footer> -->
+        </section>
+    </main>
+      
+    <!--=============== Main JS ===============-->
+    <script src="script.js"></script>
+
+    <!--=============== Email JS ===============-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    
+    <!--=============== Scrollreveal JS ===============-->
+    <script src="scrollreveal.min.js"></script>
+</body>
+</html>
